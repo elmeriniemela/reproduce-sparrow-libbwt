@@ -6,10 +6,7 @@ Exact, bit-for-bit reproduction of Sparrow Wallet's `libbwt_jni.so` (Linux x86_6
 
 - **File**: `libbwt_jni.so`
 - **Origin**: Native library bundled in Sparrow Wallet ([commit `58cd50f`](https://github.com/sparrowwallet/sparrow/commit/58cd50f67455cb5fd6845ec848f809b21f855c52))
-- **Expected SHA-256**:
-  ```text
-  49ea61c9cde78fe7de322cba3b5e0d0b06bbc6c41fb4c40fbc59e986479f0e16
-  ```
+- **Expected SHA-256**: `49ea61c9cde78fe7de322cba3b5e0d0b06bbc6c41fb4c40fbc59e986479f0e16`
 
 ---
 
@@ -69,11 +66,6 @@ sha256sum out/reproduced_libbwt_jni.so
   - `socks = "0.3.3"`
   - `miniscript = "6.0.1"`
   - `jsonrpc = "0.12.0"`
-
-```bash
-git subtree add --prefix=libbwt-jni https://github.com/bwt-dev/libbwt-jni.git 6f945d4d58418fbb36cea03940b7613940b619a0 --squash
-git subtree add --prefix=bwt https://github.com/bwt-dev/bwt e1885d97eb70c8f84db3383e7e2d04ad063f3ec0 --squash
-```
 
 ### Toolchains & Environment
 
